@@ -5,7 +5,6 @@ import NavBar from '../fonts/components/navbar';
 import Modal from '../components/modal';
 import React, { useState } from 'react';
 import axios from 'axios';
-import { Head } from 'next/document';
 import icon from '../assets/icon.ico';
 import Image from 'next/image';
 
