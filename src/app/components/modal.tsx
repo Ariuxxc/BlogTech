@@ -6,9 +6,11 @@ import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 function Modal() {
     return (
     <>
+    {/*
         <button type="button" className="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
         Launch demo modal
       </button>
+      */}
       
    
       <div className="modal fade" id="exampleModal"  aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -20,6 +22,7 @@ function Modal() {
             </div>
             <div className="modal-body">
               <h1>test</h1>
+              <input type="text" />
             </div>
             <div className="modal-footer">
               <button type="button" className="btn btn-secondary" data-bs-dismiss="modal">Close</button>
